@@ -1,0 +1,23 @@
+{
+  "name": "auth0-config-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "export:dev": "a0deploy export --strip --format yaml --output_folder . --config_file ./config/dev.json",
+    "import:dev": "a0deploy import --input_file tenant.yaml --config_file ./config/dev.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JohnDupuis/auth0-config-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JohnDupuis/auth0-config-test/issues"
+  },
+  "homepage": "https://github.com/JohnDupuis/auth0-config-test#readme",
+  "dependencies": {
+    "auth0-deploy-cli": "^7.14.3"
+  }
+}

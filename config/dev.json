@@ -1,0 +1,8 @@
+{
+  "AUTH0_DOMAIN": "dev--7lw18g0.us.auth0.com",
+  "AUTH0_CLIENT_ID": "yeFbu360eFJ9AbfCDRR08qPgIG40z2l6",
+  "EXCLUDED_PROPS": {
+    "clients": ["client_secret"],
+    "connections": ["options.client_secret"]
+  }
+}
