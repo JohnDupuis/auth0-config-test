@@ -85,10 +85,19 @@ tenant:
   enabled_locales:
     - en
   flags:
+    new_universal_login_experience_enabled: true
     universal_login: true
     revoke_refresh_token_grant: false
     disable_clickjack_protection_headers: false
-emailProvider: {}
+emailProvider:
+  name: smtp
+  credentials:
+    smtp_host: smtp.mailgun.org
+    smtp_port: 587
+    smtp_user: postmaster@sandboxcade316d4885489f8f6e2f50e4f15e90.mailgun.org
+    smtp_pass: '##SMTP_PASS##'
+  default_from_address: test@ownup.com
+  enabled: true
 emailTemplates: []
 clientGrants: []
 guardianFactors:
