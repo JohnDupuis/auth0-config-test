@@ -94,9 +94,9 @@ emailProvider:
   credentials:
     smtp_host: smtp.mailgun.org
     smtp_port: 587
-    smtp_user: postmaster@sandboxcade316d4885489f8f6e2f50e4f15e90.mailgun.org
-    smtp_pass: '##SMTP_PASS##'
-  default_from_address: '##DEV_SMTP_PASS##'
+    smtp_user: '##DEV_SMTP_USER##'
+    smtp_pass: '##DEV_SMTP_PASS##'
+  default_from_address: '##DEV_SMTP_ADDR##'
   enabled: true
 emailTemplates: []
 clientGrants: []

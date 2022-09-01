@@ -4,5 +4,9 @@
   "EXCLUDED_PROPS": {
     "clients": ["client_secret"],
     "connections": ["options.client_secret"]
+  },
+  "AUTH0_KEYWORD_REPLACE_MAPPINGS": {
+    "DEV_SMTP_USER": "postmaster@mail2.ownup.com",
+    "DEV_SMTP_ADDR": "thisisatest@test.com"
   }
 }
